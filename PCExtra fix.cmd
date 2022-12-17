@@ -108,7 +108,8 @@ goto :main
 ipconfig /displaydns
 pause >nul
 echo Done!
-
+:: fix
+goto :main
 :flushdns
 ipconfig /flushdns
 pause >nul
